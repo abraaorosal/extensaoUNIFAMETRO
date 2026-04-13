@@ -671,6 +671,23 @@ p {
   font-weight: 800;
 }
 
+.meeting-panel {
+  margin-bottom: 34px;
+}
+
+.meeting-intro {
+  max-width: 760px;
+  margin-bottom: 24px;
+}
+
+.meeting-intro h3 {
+  font-size: 1.7rem;
+}
+
+.meeting-intro p:last-child {
+  margin-bottom: 0;
+}
+
 .schedule-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -714,6 +731,21 @@ p {
   color: var(--green-800);
   font-size: 0.86rem;
   font-weight: 900;
+}
+
+.meeting-link {
+  display: flex;
+  width: fit-content;
+  margin-top: 18px;
+  color: var(--green-800);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.meeting-link:hover,
+.meeting-link:focus-visible {
+  color: var(--green-700);
 }
 
 .edit-note {
