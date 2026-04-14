@@ -737,6 +737,38 @@ p {
   font-weight: 900;
 }
 
+.room-note {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border: 1px solid rgba(239, 125, 25, 0.32);
+  border-radius: var(--radius);
+  background: #fff7ef;
+}
+
+.room-note strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--green-900);
+}
+
+.room-note p,
+.room-note small {
+  display: block;
+  margin: 0;
+}
+
+.room-note p {
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.room-note small {
+  margin-top: 8px;
+  color: var(--text);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
 .meeting-link {
   display: flex;
   flex-direction: column;
